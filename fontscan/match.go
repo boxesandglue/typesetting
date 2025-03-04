@@ -4,8 +4,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/language"
+	"github.com/boxesandglue/typesetting/font"
+	"github.com/boxesandglue/typesetting/language"
 )
 
 // Query exposes the intention of an author about the

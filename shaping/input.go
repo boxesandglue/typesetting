@@ -5,12 +5,12 @@ package shaping
 import (
 	"unicode"
 
-	"github.com/go-text/typesetting/di"
-	"github.com/go-text/typesetting/font"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/harfbuzz"
-	"github.com/go-text/typesetting/language"
-	"github.com/go-text/typesetting/unicodedata"
+	"github.com/boxesandglue/typesetting/di"
+	"github.com/boxesandglue/typesetting/font"
+	ot "github.com/boxesandglue/typesetting/font/opentype"
+	"github.com/boxesandglue/typesetting/harfbuzz"
+	"github.com/boxesandglue/typesetting/language"
+	"github.com/boxesandglue/typesetting/unicodedata"
 	"golang.org/x/image/math/fixed"
 	"golang.org/x/text/unicode/bidi"
 )

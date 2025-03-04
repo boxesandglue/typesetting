@@ -6,7 +6,7 @@ import (
 	"sort"
 	"testing"
 
-	tu "github.com/go-text/typesetting/testutils"
+	tu "github.com/boxesandglue/typesetting/testutils"
 )
 
 func TestLanguage(t *testing.T) {

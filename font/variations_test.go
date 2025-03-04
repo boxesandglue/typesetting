@@ -10,10 +10,10 @@ import (
 	"reflect"
 	"testing"
 
+	ot "github.com/boxesandglue/typesetting/font/opentype"
+	"github.com/boxesandglue/typesetting/font/opentype/tables"
+	tu "github.com/boxesandglue/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 // ported from harfbuzz/test/api/test-var-coords.c Copyright © 2019 Ebrahim Byagowi

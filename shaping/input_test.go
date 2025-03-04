@@ -6,10 +6,10 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/go-text/typesetting/di"
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/language"
-	tu "github.com/go-text/typesetting/testutils"
+	"github.com/boxesandglue/typesetting/di"
+	"github.com/boxesandglue/typesetting/font"
+	"github.com/boxesandglue/typesetting/language"
+	tu "github.com/boxesandglue/typesetting/testutils"
 )
 
 func Test_ignoreFaceChange(t *testing.T) {
@@ -649,7 +649,7 @@ func TestSplit(t *testing.T) {
 }
 
 func TestIssue127(t *testing.T) {
-	// regression test for https://github.com/go-text/typesetting/issues/127
+	// regression test for https://github.com/boxesandglue/typesetting/issues/127
 	str := []rune("لمّا")
 	input := Input{
 		Text:      str,

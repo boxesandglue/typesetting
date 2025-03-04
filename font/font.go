@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/go-text/typesetting/font/cff"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
+	"github.com/boxesandglue/typesetting/font/cff"
+	ot "github.com/boxesandglue/typesetting/font/opentype"
+	"github.com/boxesandglue/typesetting/font/opentype/tables"
 )
 
 type (

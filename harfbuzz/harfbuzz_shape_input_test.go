@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/boxesandglue/typesetting/font"
+	"github.com/boxesandglue/typesetting/language"
+	tu "github.com/boxesandglue/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/harfbuzz"
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/language"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 // collectTests walk through the tests directories, parsing .tests files

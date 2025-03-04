@@ -3,8 +3,8 @@ package shaping
 import (
 	"sort"
 
-	"github.com/go-text/typesetting/di"
-	"github.com/go-text/typesetting/segmenter"
+	"github.com/boxesandglue/typesetting/di"
+	"github.com/boxesandglue/typesetting/segmenter"
 	"golang.org/x/image/math/fixed"
 )
 

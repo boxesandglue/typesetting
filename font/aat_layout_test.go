@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/boxesandglue/typesetting/font/opentype/tables"
+	tu "github.com/boxesandglue/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 func TestKern0(t *testing.T) {

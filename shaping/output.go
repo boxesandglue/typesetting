@@ -3,8 +3,8 @@
 package shaping
 
 import (
-	"github.com/go-text/typesetting/di"
-	"github.com/go-text/typesetting/font"
+	"github.com/boxesandglue/typesetting/di"
+	"github.com/boxesandglue/typesetting/font"
 	"golang.org/x/image/math/fixed"
 )
 

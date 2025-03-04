@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	tu "github.com/go-text/typesetting/testutils"
+	tu "github.com/boxesandglue/typesetting/testutils"
 )
 
 func hex(rs []rune) string {

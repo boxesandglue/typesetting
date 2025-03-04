@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/boxesandglue/typesetting/font"
+	ot "github.com/boxesandglue/typesetting/font/opentype"
+	"github.com/boxesandglue/typesetting/language"
+	tu "github.com/boxesandglue/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/harfbuzz"
 	otTD "github.com/go-text/typesetting-utils/opentype"
-	"github.com/go-text/typesetting/font"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/language"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 func assertEqualInt(t *testing.T, expected, got int) {

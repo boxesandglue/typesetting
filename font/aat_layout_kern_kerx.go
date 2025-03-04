@@ -5,7 +5,7 @@ package font
 import (
 	"encoding/binary"
 
-	"github.com/go-text/typesetting/font/opentype/tables"
+	"github.com/boxesandglue/typesetting/font/opentype/tables"
 )
 
 // Kernx represents a 'kern' or 'kerx' kerning table.

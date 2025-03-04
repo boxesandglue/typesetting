@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-text/typesetting/font"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/language"
-	"github.com/go-text/typesetting/shaping"
-	tu "github.com/go-text/typesetting/testutils"
+	"github.com/boxesandglue/typesetting/font"
+	ot "github.com/boxesandglue/typesetting/font/opentype"
+	"github.com/boxesandglue/typesetting/language"
+	"github.com/boxesandglue/typesetting/shaping"
+	tu "github.com/boxesandglue/typesetting/testutils"
 )
 
 func ExampleFontMap_UseSystemFonts() {
@@ -382,10 +382,10 @@ func TestDumpSystemFonts(t *testing.T) {
 	}
 	code := fmt.Sprintf(`
 	package fontscan
-	import "github.com/go-text/typesetting/font"
+	import "github.com/boxesandglue/typesetting/font"
 
 	// extracted from a linux system
-	var linuxSampleFontSet = 
+	var linuxSampleFontSet =
 	%#v`, trimmed)
 	code = strings.ReplaceAll(code, "fontscan.", "")
 	code = strings.ReplaceAll(code, "Footprint{", "\n{")

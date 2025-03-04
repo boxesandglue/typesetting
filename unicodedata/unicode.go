@@ -5,7 +5,7 @@ package unicodedata
 import (
 	"unicode"
 
-	"github.com/go-text/typesetting/language"
+	"github.com/boxesandglue/typesetting/language"
 )
 
 var categories []*unicode.RangeTable

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	ot "github.com/go-text/typesetting/font/opentype"
+	ot "github.com/boxesandglue/typesetting/font/opentype"
 )
 
 var (

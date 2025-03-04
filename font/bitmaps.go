@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math"
 
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
+	ot "github.com/boxesandglue/typesetting/font/opentype"
+	"github.com/boxesandglue/typesetting/font/opentype/tables"
 )
 
 // sbix

@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
+	tu "github.com/boxesandglue/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 func TestParseOTLayout(t *testing.T) {

@@ -1,9 +1,9 @@
 package harfbuzz
 
 import (
-	"github.com/go-text/typesetting/font"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
+	"github.com/boxesandglue/typesetting/font"
+	ot "github.com/boxesandglue/typesetting/font/opentype"
+	"github.com/boxesandglue/typesetting/font/opentype/tables"
 )
 
 // ported from src/hb-ot-layout.cc, hb-ot-layout.hh

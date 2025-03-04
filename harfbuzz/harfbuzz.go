@@ -15,10 +15,10 @@ import (
 	"math/bits"
 	"strconv"
 
-	"github.com/go-text/typesetting/font"
-	ot "github.com/go-text/typesetting/font/opentype"
-	"github.com/go-text/typesetting/font/opentype/tables"
-	"github.com/go-text/typesetting/language"
+	"github.com/boxesandglue/typesetting/font"
+	ot "github.com/boxesandglue/typesetting/font/opentype"
+	"github.com/boxesandglue/typesetting/font/opentype/tables"
+	"github.com/boxesandglue/typesetting/language"
 )
 
 // based on upstream commit 5d543d64222c6ce45332d0c188790f90691ef112

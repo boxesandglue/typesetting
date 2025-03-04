@@ -3,8 +3,8 @@ package di
 import (
 	"testing"
 
-	"github.com/go-text/typesetting/harfbuzz"
-	tu "github.com/go-text/typesetting/testutils"
+	"github.com/boxesandglue/typesetting/harfbuzz"
+	tu "github.com/boxesandglue/typesetting/testutils"
 )
 
 func TestDirection(t *testing.T) {

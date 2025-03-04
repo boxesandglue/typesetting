@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/go-text/typesetting/font/opentype/tables"
+	"github.com/boxesandglue/typesetting/font/opentype/tables"
 )
 
 const numBuiltInPostNames = len(builtInPostNames)

@@ -7,8 +7,8 @@ import (
 	"image/png"
 	"os"
 
-	"github.com/go-text/typesetting/font"
-	"github.com/go-text/typesetting/font/opentype"
+	"github.com/boxesandglue/typesetting/font"
+	"github.com/boxesandglue/typesetting/font/opentype"
 )
 
 // this file implements a very primitive "rasterizer", which can

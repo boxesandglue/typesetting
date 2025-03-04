@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
+	ot "github.com/boxesandglue/typesetting/font/opentype"
+	tu "github.com/boxesandglue/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
-	ot "github.com/go-text/typesetting/font/opentype"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 func TestMetadata(t *testing.T) {

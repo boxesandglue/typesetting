@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	tu "github.com/boxesandglue/typesetting/testutils"
 	td "github.com/go-text/typesetting-utils/opentype"
-	tu "github.com/go-text/typesetting/testutils"
 )
 
 func TestAATLookup4(t *testing.T) {
